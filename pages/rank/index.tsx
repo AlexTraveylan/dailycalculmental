@@ -1,11 +1,11 @@
-import { Begin } from '@/components/home/Begin'
-import RootLayout from './layout'
+import { Ranking } from '@/components/home/ranking'
+import RootLayout from '../layout'
 
 export default function Index() {
   return (
-    <RootLayout nav="rank">
+    <RootLayout nav="/">
       <div className="flex flex-row justify-around">
-        <Begin />
+        <Ranking />
       </div>
     </RootLayout>
   )
